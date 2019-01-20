@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <!--Font Awesome CSS--> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!--Bulma CSS--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <!--Firebase--> 
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <!--Font Awesome SVG--> 
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+    <!--Costum CSS-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    <!--MAIN SECTION-->
+    <section id="inicio" class="section">
+        <div class="container">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a class="" href="#inicio">
+                            <figure class="image is-96x96">
+                                <img src="images/logo/logo.png">
+                            </figure>
+                        </a>
+                      
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                      
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href="#inicio">
+                                Inicio
+                            </a>
+                            <a class="navbar-item" href="#estudios">
+                                Estudios
+                            </a>
+                            <a class="navbar-item" href="#experiencia">
+                                Experiencia
+                            </a>
+                            <a class="navbar-item" href="#contactame">
+                                Contactame
+                            </a>
+                          </div>
+                          <div class="navbar-end">
+                            <div class="navbar-item">
+                            </div>
+                        </div>
+                    </div>
+                    </nav>
+
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded" src="images/personal/iconme.jpg" alt="Fotografía de Domingo Pérez">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                  <p>
+                                    <strong>Domingo Pérez Guerrero</strong> 
+                                        <span class="icon is-small">
+                                            <i class="fas fa-code" aria-hidden="true"></i>
+                                          </span>
+                                        <small> Analísta programador</small> 
+                                    <br>
+                                    Excelente capacidad de trabajo en equipo e individual, Autodidacta, con capacidad de liderazgo. Apacionado de las nuevas tecnologia y actualmente centrado en mi desarrollo profecional como AI Research.
+                                  </p>
+                                </div>
+                                <nav class="level is-mobile">
+                                  <div class="level-left">
+                                    <a href="https://github.com/p4pupro" target="_blank" class="level-item" aria-label="link">
+                                      <span class="icon is-small"> 
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                      </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/domingo-p%C3%A9rez-guerrero-1018aba7/" target="_blank" class="level-item" aria-label="link">
+                                        <span class="icon is-small">
+                                          <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </span>
+                                      </a>
+                                    <a href="https://twitter.com/Papu62?lang=es" target="_blank" class="level-item" aria-label="link">
+                                      <span class="icon is-small">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                      </span>
+                                    </a>
+                                  </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+
+        </div>
+    </section>
+
+
+      <section id="estudios" class="section">
+            <div class="container">
+              <h1 class="title">Estudios</h1>
+              <h2 class="subtitle">
+                Recorrido académico y <strong>objetivos</strong>
+              </h2>
+              <nav class="panel">
+                    <p class="panel-heading">
+                        Trayectoria académica
+                    </p>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                            <i class="fas fa-book" aria-hidden="true"></i>
+                        </span>
+                        Master AI Research - Unir - Goal 
+                        <span class="icon has-text-warning">
+                            <i class="fas fa-bullseye" aria-hidden="true"></i>
+                        </span>  
+                    </a>
+                    
+                    <a class="panel-block is-active">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Grado de ingeniería informática - Unir - 2018 <span class="icon has-text-info">
+                            <i class="fas fa-spinner fa-pulse" aria-hidden="true"></i>
+                          </span>  
+                    </a>
+                    <a class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Ciclo superior de desarrollo de aplicaciones en multiplataforma - IES Francisco de Goya - 2017 <span class="icon has-text-success">
+                            <i class="fas fa-check-square"></i>
+                          </span>
+                    </a>
+                    <a class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Grado de maestro en primaria - ULL - 2014 <span class="icon has-text-success">
+                            <i class="fas fa-check-square"></i>
+                          </span>
+                    </a>
+                  </nav>
+            </div>
+      </section>
+
+
+
+      <section id="experiencia" class="section">
+            <div class="container">
+              <h1 class="title">Experiencia</h1>
+              <h2 class="subtitle">
+                Experiencia profesional en las tecnologias descriptas.
+              </h2>
+
+              <div class="field is-grouped is-grouped-multiline">
+                    <p class="control">
+                      <a id="iter" class="button is-primary">
+                        Instituto Tecnológico de Energias Renovables ITER.SL
+                      </a>
+                    </p>
+                    <p class="control">
+                      <a id="atos" class="button is-info">
+                        Atos IT Solutions and Bussiness SL
+                      </a>
+                    </p>
+                    <p class="control">
+                      <a id="almis" class="button is-danger">
+                        Almis Informática Financiera SL 
+                      </a>
+                    </p> 
+                    <span class="icon has-text-success">
+                        <i class="fas fa-user-check"></i>
+                    </span>
+                </div>
+
+              
+                  <div id="modalEmpresa" class="modal">
+                    <div id="modalContenido" class="modal-background"></div>
+                    <div class="modal-content">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img id="imagenEmpresa" src="" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <span class="tag is-info">Cargo</span>
+                                        <p id="textoCargo" class="subtitle has-text-justified">  </p>
+                                        <span class="tag is-info">Periodo</span>
+                                        <p id="textoDuracion" class="subtitle has-text-justified">  </p>
+                                    </div>
+                                        
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <button id="cierraModal" class="modal-close is-large" aria-label="close"></button>
+                  </div>
+
+
+              <span class="icon has-text-info is-large">
+                <i class="fas fa-lg fab fa-css3"></i>
+              </span>
+              <p class="has-text-info">Flexbox, Bootstrap, Bulma, Materialize, FontAwesome...</p>
+              <progress class="progress is-info" value="35" max="100">35%</progress>
+
+              <span class="icon has-text-danger is-large">
+                <i class="fas fa-lg fab fa-html5"></i>
+              </span>
+              <p class="has-text-info">Html5, Thymelef, Blade, Mustache...</p>
+              <progress class="progress is-danger" value="60" max="100">60%</progress>
+
+              <span class="icon has-text-warning is-large">
+                <i class="fas fa-lg fab fa-js"></i>
+              </span>
+              <p class="has-text-info">Vanilla JavaScript, React, Angular4/6...</p>
+             <progress class="progress is-warning" value="80" max="100">80%</progress>
+
+             <span class="icon has-text-success is-large">
+                <i class="fas fa-lg fab fa-java"></i> 
+             </span>
+             <p class="has-text-info">Spring Boot, Spring Data, Spring Security, Spring Core, Spring Cloud...</p>
+             <progress class="progress is-success" value="85" max="100">85%</progress>
+
+             <span class="icon has-text-success is-large">
+                <i class="fa-lg fab fas fa-database"></i>
+             </span>
+             <p class="has-text-info">MySql, SQL, Mongo, hibernate, jpa...</p>
+             <progress class="progress is-active" value="85" max="100">80%</progress>
+
+             <span class="icon has-text-primary is-large">
+                    <i class="fa-lg fab fab fa-php"></i>
+                 </span>
+                 <p class="has-text-info">PHP 7.1, Laravel 4/5</p>
+                 <progress class="progress is-primary" value="65" max="100">65%</progress>
+                
+
+            </div>
+      </section>
+
+
+
+      <section id="contactame" class="section">
+            <div class="container">
+              <h1 class="title">Contactame</h1>
+              <h2 class="subtitle">
+               Si quieres saber más no dudes en <strong>contactarme</strong>
+              </h2>
+     
+                  <div class="field">
+                    <label class="label">Nombre</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input id="formuNombre" class="input" type="text" placeholder="Nombre" >
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i id="ayudaCheck" class=""></i>
+                      </span>
+                    </div>
+                    <p id="ayudaNombreRequerido"  class="help is-danger">Este campo es requerido</p>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input id="formuEmail" class="input" type="email" placeholder="Email" >
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i id="ayudaTriangulo" class=""></i>
+                      </span>
+                    </div>
+                    <p id="ayudaEmailRequerido" class="help is-danger">Este campo es requerido</p>
+                    <p id="ayudaMailErroneo" class="help is-danger">Este email no es correcto</p>
+                  </div>
+                  
+                  
+                  <div class="field">
+                    <label class="label">Mensaje</label>
+                    <div class="control">
+                      <textarea id="inputMensaje" class="textarea" placeholder="Escribeme..."></textarea>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button id="btnEnviar" class="button is-link">Enviar</button>
+                    </div>
+                    <div class="control">
+                      <button id="btnCancelar" class="button is-text">Cancelar</button>
+                    </div>
+                  </div>
+
+                  <div id="notificacion" class="notification">
+                    <button class="delete"></button>
+                    <p id="notificacionTexto"></p>
+                  </div>
+
+
+            </div>
+      </section>
+
+      <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Portfolio</strong> by <a href="https://github.com/p4pupro">Domingo Pérez</a>. All right reserved &copy; 2019
+            </p>
+            <a href="#inicio">
+            <span class="icon is-large">
+                <i class="fas fa-arrow-circle-up fas fa-3x"></i>
+            </span>
+            </a>
+        </div>
+      </footer>
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Mailing-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+     <!--Script-->
+    <script src="js/principal.js"></script>
+     <!--Script Contact-->
+     <script src="js/mails.js"></script>
+    
+    
+</body>
+</html>

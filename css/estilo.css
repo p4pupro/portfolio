@@ -1,0 +1,34 @@
+#almis:hover {
+    background-color: white;
+    color: #ff3860;
+    border-color: #ff3860;
+}
+
+#atos:hover {
+    background-color: white;
+    color: #209cee;
+    border-color: #209cee;
+}
+
+#iter:hover {
+    background-color: white;
+    color: #00d1b2;
+    border-color: #00d1b2;
+}
+
+#imagenEmpresa{
+    width: 100%;
+    height: 40%;
+}
+
+.help {
+    visibility: hidden; 
+}
+
+#notificacion {
+    visibility: hidden;
+}
+
+
+
+
